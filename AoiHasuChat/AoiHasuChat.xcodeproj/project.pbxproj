@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94074042A7D65890033024B /* AoiHasuChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074032A7D65890033024B /* AoiHasuChatApp.swift */; };
+		C94074082A7D658A0033024B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94074072A7D658A0033024B /* Assets.xcassets */; };
+		C940740C2A7D658A0033024B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C940740B2A7D658A0033024B /* Preview Assets.xcassets */; };
+		C94074172A7D68BF0033024B /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074162A7D68BF0033024B /* Style.swift */; };
+		C94074192A7D68D80033024B /* InputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074182A7D68D80033024B /* InputText.swift */; };
+		C940741B2A7D68F60033024B /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940741A2A7D68F60033024B /* SubmitButton.swift */; };
+		C940741D2A7D692E0033024B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940741C2A7D692E0033024B /* SplashScreenView.swift */; };
+		C94074212A7D6C230033024B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074202A7D6C230033024B /* HomeView.swift */; };
+		C94074232A7D6CE30033024B /* HomeViewExtensionForNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074222A7D6CE30033024B /* HomeViewExtensionForNetwork.swift */; };
+		C94074252A7D6D820033024B /* TypingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074242A7D6D820033024B /* TypingTextView.swift */; };
+		C94074272A7D716E0033024B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074262A7D716E0033024B /* MainView.swift */; };
+		C967005E2A7E2D2A003E0FF3 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967005D2A7E2D2A003E0FF3 /* Sidebar.swift */; };
+		C96700602A7E3B90003E0FF3 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967005F2A7E3B90003E0FF3 /* Logo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C94074002A7D65890033024B /* AoiHasuChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoiHasuChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94074032A7D65890033024B /* AoiHasuChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoiHasuChatApp.swift; sourceTree = "<group>"; };
+		C94074072A7D658A0033024B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C94074092A7D658A0033024B /* AoiHasuChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AoiHasuChat.entitlements; sourceTree = "<group>"; };
+		C940740B2A7D658A0033024B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C94074162A7D68BF0033024B /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		C94074182A7D68D80033024B /* InputText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputText.swift; sourceTree = "<group>"; };
+		C940741A2A7D68F60033024B /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		C940741C2A7D692E0033024B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		C94074202A7D6C230033024B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C94074222A7D6CE30033024B /* HomeViewExtensionForNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewExtensionForNetwork.swift; sourceTree = "<group>"; };
+		C94074242A7D6D820033024B /* TypingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextView.swift; sourceTree = "<group>"; };
+		C94074262A7D716E0033024B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C967005D2A7E2D2A003E0FF3 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		C967005F2A7E3B90003E0FF3 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94073FD2A7D65890033024B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94073F72A7D65890033024B = {
+			isa = PBXGroup;
+			children = (
+				C94074022A7D65890033024B /* AoiHasuChat */,
+				C94074012A7D65890033024B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94074012A7D65890033024B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94074002A7D65890033024B /* AoiHasuChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94074022A7D65890033024B /* AoiHasuChat */ = {
+			isa = PBXGroup;
+			children = (
+				C94074032A7D65890033024B /* AoiHasuChatApp.swift */,
+				C94074072A7D658A0033024B /* Assets.xcassets */,
+				C94074092A7D658A0033024B /* AoiHasuChat.entitlements */,
+				C94074122A7D65C50033024B /* Models */,
+				C94074132A7D65EF0033024B /* Network */,
+				C94074142A7D66040033024B /* Utilities */,
+				C94074152A7D66180033024B /* Views */,
+				C940740A2A7D658A0033024B /* Preview Content */,
+			);
+			path = AoiHasuChat;
+			sourceTree = "<group>";
+		};
+		C940740A2A7D658A0033024B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C940740B2A7D658A0033024B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C94074122A7D65C50033024B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C94074132A7D65EF0033024B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C94074222A7D6CE30033024B /* HomeViewExtensionForNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C94074142A7D66040033024B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C94074162A7D68BF0033024B /* Style.swift */,
+				C94074182A7D68D80033024B /* InputText.swift */,
+				C940741A2A7D68F60033024B /* SubmitButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C94074152A7D66180033024B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C94074262A7D716E0033024B /* MainView.swift */,
+				C94074202A7D6C230033024B /* HomeView.swift */,
+				C967005D2A7E2D2A003E0FF3 /* Sidebar.swift */,
+				C940741C2A7D692E0033024B /* SplashScreenView.swift */,
+				C94074242A7D6D820033024B /* TypingTextView.swift */,
+				C967005F2A7E3B90003E0FF3 /* Logo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94073FF2A7D65890033024B /* AoiHasuChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C940740F2A7D658A0033024B /* Build configuration list for PBXNativeTarget "AoiHasuChat" */;
+			buildPhases = (
+				C94073FC2A7D65890033024B /* Sources */,
+				C94073FD2A7D65890033024B /* Frameworks */,
+				C94073FE2A7D65890033024B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AoiHasuChat;
+			productName = AoiHasuChat;
+			productReference = C94074002A7D65890033024B /* AoiHasuChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94073F82A7D65890033024B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C94073FF2A7D65890033024B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C94073FB2A7D65890033024B /* Build configuration list for PBXProject "AoiHasuChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C94073F72A7D65890033024B;
+			productRefGroup = C94074012A7D65890033024B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94073FF2A7D65890033024B /* AoiHasuChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94073FE2A7D65890033024B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940740C2A7D658A0033024B /* Preview Assets.xcassets in Resources */,
+				C94074082A7D658A0033024B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94073FC2A7D65890033024B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C967005E2A7E2D2A003E0FF3 /* Sidebar.swift in Sources */,
+				C94074172A7D68BF0033024B /* Style.swift in Sources */,
+				C94074212A7D6C230033024B /* HomeView.swift in Sources */,
+				C94074232A7D6CE30033024B /* HomeViewExtensionForNetwork.swift in Sources */,
+				C96700602A7E3B90003E0FF3 /* Logo.swift in Sources */,
+				C94074272A7D716E0033024B /* MainView.swift in Sources */,
+				C94074042A7D65890033024B /* AoiHasuChatApp.swift in Sources */,
+				C94074192A7D68D80033024B /* InputText.swift in Sources */,
+				C940741B2A7D68F60033024B /* SubmitButton.swift in Sources */,
+				C94074252A7D6D820033024B /* TypingTextView.swift in Sources */,
+				C940741D2A7D692E0033024B /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C940740D2A7D658A0033024B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C940740E2A7D658A0033024B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C94074102A7D658A0033024B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AoiHasuChat/AoiHasuChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AoiHasuChat/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWK5J33Z9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidomarinelli.AoiHasuChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C94074112A7D658A0033024B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AoiHasuChat/AoiHasuChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AoiHasuChat/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWK5J33Z9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidomarinelli.AoiHasuChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94073FB2A7D65890033024B /* Build configuration list for PBXProject "AoiHasuChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940740D2A7D658A0033024B /* Debug */,
+				C940740E2A7D658A0033024B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C940740F2A7D658A0033024B /* Build configuration list for PBXNativeTarget "AoiHasuChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94074102A7D658A0033024B /* Debug */,
+				C94074112A7D658A0033024B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C94073F82A7D65890033024B /* Project object */;
+}
