@@ -10,7 +10,7 @@ import SwiftUI
 struct SplashScreenView: View {
     var body: some View {
         HStack {
-            Text("AoiHasuChat")
+            Text("AoiHasuAI")
                 .font(.title)
             Image("BlueLotus")
                 .resizable()

@@ -18,12 +18,29 @@ struct MainView: View {
                     .transition(.opacity)
                     .animation(.easeOut(duration: 1.5))
                 
-                Text("Copyright © 2023 AoiHasuAI owned by Guido Marinelli. All rights reserved.").frame(alignment: .bottomLeading)
+                Text("Copyright © 2023 AoiHasuAI owned by Guido Marinelli. All rights reserved.").frame(alignment: .bottom)
                 
             } else {
                 NavigationView {
-                    Sidebar()
-                    HomeView()
+                    List {
+                        NavigationLink {
+                            HomeView(title: "Home")
+                        } label: {
+                            Label("Home", systemImage: "house")
+                        }
+                        
+                        NavigationLink {
+                            ChronologyView(title: "Chronology")
+                        } label: {
+                            Label("Chronology", systemImage: "clock")
+                        }
+                    }
+                    .listStyle(SidebarListStyle())
+                    .frame(minWidth: 100, idealWidth: 100)
+                    //.background(Constants.customBlack)
+                    .navigationTitle("Sidebar")
+                    
+                    HomeView(title: "Home")
                 }
                 .toolbar {
                     ToolbarItem(placement: .navigation) {
@@ -42,7 +59,7 @@ struct MainView: View {
             minHeight: 428,
             idealHeight: 800,
             maxHeight: .infinity)
-        .background(Constants.customBlack).edgesIgnoringSafeArea(.all)
+        .background(Constants.customBlack).ignoresSafeArea()
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                 withAnimation {

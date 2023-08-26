@@ -22,7 +22,7 @@ struct TypingText: View {
             currentIndex = 0
             
             guard !typingText.isEmpty else { return }
-            
+            print(isTyping)
             isTyping = true
             
             let timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { timer in

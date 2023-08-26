@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C93F20DA2A9513A400264065 /* TextGeneration.py in Resources */ = {isa = PBXBuildFile; fileRef = C93F20D92A9513A300264065 /* TextGeneration.py */; };
 		C94074042A7D65890033024B /* AoiHasuChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074032A7D65890033024B /* AoiHasuChatApp.swift */; };
 		C94074082A7D658A0033024B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94074072A7D658A0033024B /* Assets.xcassets */; };
 		C940740C2A7D658A0033024B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C940740B2A7D658A0033024B /* Preview Assets.xcassets */; };
@@ -15,14 +16,16 @@
 		C940741B2A7D68F60033024B /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940741A2A7D68F60033024B /* SubmitButton.swift */; };
 		C940741D2A7D692E0033024B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940741C2A7D692E0033024B /* SplashScreenView.swift */; };
 		C94074212A7D6C230033024B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074202A7D6C230033024B /* HomeView.swift */; };
-		C94074232A7D6CE30033024B /* HomeViewExtensionForNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074222A7D6CE30033024B /* HomeViewExtensionForNetwork.swift */; };
 		C94074252A7D6D820033024B /* TypingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074242A7D6D820033024B /* TypingTextView.swift */; };
 		C94074272A7D716E0033024B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94074262A7D716E0033024B /* MainView.swift */; };
-		C967005E2A7E2D2A003E0FF3 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967005D2A7E2D2A003E0FF3 /* Sidebar.swift */; };
 		C96700602A7E3B90003E0FF3 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967005F2A7E3B90003E0FF3 /* Logo.swift */; };
+		C9A7A3AE2A7E912400C096E7 /* ChronologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7A3AD2A7E912400C096E7 /* ChronologyView.swift */; };
+		C9B156FF2A9167A200A980F7 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = C9B156FE2A9167A200A980F7 /* PythonKit */; };
+		C9FAD0C12A94A6D70095C131 /* RunPythonScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FAD0C02A94A6D70095C131 /* RunPythonScript.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C93F20D92A9513A300264065 /* TextGeneration.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TextGeneration.py; sourceTree = "<group>"; };
 		C94074002A7D65890033024B /* AoiHasuChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoiHasuChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94074032A7D65890033024B /* AoiHasuChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoiHasuChatApp.swift; sourceTree = "<group>"; };
 		C94074072A7D658A0033024B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,11 +36,11 @@
 		C940741A2A7D68F60033024B /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 		C940741C2A7D692E0033024B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		C94074202A7D6C230033024B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		C94074222A7D6CE30033024B /* HomeViewExtensionForNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewExtensionForNetwork.swift; sourceTree = "<group>"; };
 		C94074242A7D6D820033024B /* TypingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextView.swift; sourceTree = "<group>"; };
 		C94074262A7D716E0033024B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		C967005D2A7E2D2A003E0FF3 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		C967005F2A7E3B90003E0FF3 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		C9A7A3AD2A7E912400C096E7 /* ChronologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronologyView.swift; sourceTree = "<group>"; };
+		C9FAD0C02A94A6D70095C131 /* RunPythonScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunPythonScript.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +48,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B156FF2A9167A200A980F7 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92F6BF02A8F9F48001A42FF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C94074032A7D65890033024B /* AoiHasuChatApp.swift */,
+				C94074072A7D658A0033024B /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		C94073F72A7D65890033024B = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +83,12 @@
 		C94074022A7D65890033024B /* AoiHasuChat */ = {
 			isa = PBXGroup;
 			children = (
-				C94074032A7D65890033024B /* AoiHasuChatApp.swift */,
-				C94074072A7D658A0033024B /* Assets.xcassets */,
-				C94074092A7D658A0033024B /* AoiHasuChat.entitlements */,
+				C92F6BF02A8F9F48001A42FF /* App */,
 				C94074122A7D65C50033024B /* Models */,
-				C94074132A7D65EF0033024B /* Network */,
 				C94074142A7D66040033024B /* Utilities */,
 				C94074152A7D66180033024B /* Views */,
 				C940740A2A7D658A0033024B /* Preview Content */,
+				C94074092A7D658A0033024B /* AoiHasuChat.entitlements */,
 			);
 			path = AoiHasuChat;
 			sourceTree = "<group>";
@@ -93,16 +104,10 @@
 		C94074122A7D65C50033024B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C93F20D92A9513A300264065 /* TextGeneration.py */,
+				C9FAD0C02A94A6D70095C131 /* RunPythonScript.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		C94074132A7D65EF0033024B /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				C94074222A7D6CE30033024B /* HomeViewExtensionForNetwork.swift */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		C94074142A7D66040033024B /* Utilities */ = {
@@ -120,7 +125,7 @@
 			children = (
 				C94074262A7D716E0033024B /* MainView.swift */,
 				C94074202A7D6C230033024B /* HomeView.swift */,
-				C967005D2A7E2D2A003E0FF3 /* Sidebar.swift */,
+				C9A7A3AD2A7E912400C096E7 /* ChronologyView.swift */,
 				C940741C2A7D692E0033024B /* SplashScreenView.swift */,
 				C94074242A7D6D820033024B /* TypingTextView.swift */,
 				C967005F2A7E3B90003E0FF3 /* Logo.swift */,
@@ -144,6 +149,9 @@
 			dependencies = (
 			);
 			name = AoiHasuChat;
+			packageProductDependencies = (
+				C9B156FE2A9167A200A980F7 /* PythonKit */,
+			);
 			productName = AoiHasuChat;
 			productReference = C94074002A7D65890033024B /* AoiHasuChat.app */;
 			productType = "com.apple.product-type.application";
@@ -172,6 +180,9 @@
 				Base,
 			);
 			mainGroup = C94073F72A7D65890033024B;
+			packageReferences = (
+				C9B156FD2A9167A200A980F7 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = C94074012A7D65890033024B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,6 +199,7 @@
 			files = (
 				C940740C2A7D658A0033024B /* Preview Assets.xcassets in Resources */,
 				C94074082A7D658A0033024B /* Assets.xcassets in Resources */,
+				C93F20DA2A9513A400264065 /* TextGeneration.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,12 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C967005E2A7E2D2A003E0FF3 /* Sidebar.swift in Sources */,
+				C9FAD0C12A94A6D70095C131 /* RunPythonScript.swift in Sources */,
 				C94074172A7D68BF0033024B /* Style.swift in Sources */,
 				C94074212A7D6C230033024B /* HomeView.swift in Sources */,
-				C94074232A7D6CE30033024B /* HomeViewExtensionForNetwork.swift in Sources */,
 				C96700602A7E3B90003E0FF3 /* Logo.swift in Sources */,
 				C94074272A7D716E0033024B /* MainView.swift in Sources */,
+				C9A7A3AE2A7E912400C096E7 /* ChronologyView.swift in Sources */,
 				C94074042A7D65890033024B /* AoiHasuChatApp.swift in Sources */,
 				C94074192A7D68D80033024B /* InputText.swift in Sources */,
 				C940741B2A7D68F60033024B /* SubmitButton.swift in Sources */,
@@ -335,8 +347,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AoiHasuChat/Preview Content\"";
 				DEVELOPMENT_TEAM = SYWK5J33Z9;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -373,8 +387,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AoiHasuChat/Preview Content\"";
 				DEVELOPMENT_TEAM = SYWK5J33Z9;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -422,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9B156FD2A9167A200A980F7 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9B156FE2A9167A200A980F7 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9B156FD2A9167A200A980F7 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C94073F82A7D65890033024B /* Project object */;
 }
