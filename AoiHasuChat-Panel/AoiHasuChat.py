@@ -1,3 +1,11 @@
+"""
+Title: AoiHasuChat
+Author: [Guido Marinelli](https://github.com/GuidoMarinelli/)
+Date created: 2023/11/01
+Last modified: 2023/11/08
+Description: Use Panel in creating a simple Chat app.
+"""
+
 import panel as pn
 
 from langchain.chains import LLMChain
